@@ -65,15 +65,25 @@ body {
     font-family: forma-djr-text, sans-serif;
 }
 
+#text-a2 {
+    max-width: 60vw;
+    margin-top: 6em;
+    margin-left: 2em;
+    font-size: 2vw;
+    line-height: 2em;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: forma-djr-text, sans-serif;
+}
+
 #text-b {
     float: right;
     padding-right: 2em;
-    font-size: 1.2vw;
-    max-width: 30vw;
-    padding-top: 6em;
+    max-width: 40vw;
+    padding-top: 3em;
     padding-right: 9em;
-    font-size: 1.3vw;
-    line-height: 2em;
+    font-size: 1.7vw;
+    line-height: 1.6em;
     color: #000000;
     font-family: forma-djr-text, sans-serif;
 }
@@ -100,22 +110,27 @@ mark {
     padding: .2em 0.2em;
 }
 
+#mark-b {
+    background-color: #002aff5a;
+    padding: .2em 0.2em;
+}
+
 #footer-icons li {
     display: inline;
-    padding: 1em;
+    padding: 1vw;
 }
 
 ul {
     text-align: center;
-    height: 4em;
+    height: 4vw;
 }
 
 .instagram {
-    width: 1.9em;
+    width: 2.8vw;
 }
 
 .calendar {
-    width: 2em;
+    width: 3.1vw;
 }
 
 .booking {
@@ -134,4 +149,38 @@ iframe {
     min-height: 600px !important;
 }
 
+#container {
+    position: relative;
+}
 
+.abby1 {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 35%;
+    border-radius: 90% 60%;
+    max-width: 100%;
+    width: 40%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.title2 {
+    position: absolute;
+    font-family: forma-djr-text, sans-serif;
+   /* font-style: italic; not sure yet */
+    font-size: 18vw;
+    margin-left: 2vw;
+    margin-top: 19vw;
+    color: #fa5cd2;
+    letter-spacing: -1.1vw;
+}
+
+.star2 {
+    position: absolute;
+    height: 14vw;
+    width: auto;
+    margin-top: auto;
+    margin-left: 69%;
+    margin-top: 28%;
+    transform: rotate(90deg);
+}
