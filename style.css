@@ -1,0 +1,137 @@
+
+body {
+    max-width: 1800px;
+    margin: auto;
+    height: 100%;
+}
+
+.container-a {
+    position: relative;
+    background-color: #eafa91;
+    height: 58vw;
+}
+
+.star1 {
+    position: absolute;
+    height: 14vw;
+    width: auto;
+    margin-top: auto;
+    margin-left: 20%;
+    margin-top: 8%;
+}
+
+.image1 {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 10%;
+    border-radius: 30% 90%;
+    max-width: 100%;
+    width: 40%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.title {
+    font-family: orpheuspro, serif;
+    display: inline-flex;
+    padding-left: 4em;
+    margin-top: 15em;
+    margin-left: 54em;
+    margin-right: 5em;
+    margin-bottom: 9em;
+    color: #4c2dc7;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.2vw;
+    font-style: italic;
+    letter-spacing: 2px
+}
+
+.container-b {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 58vw;
+}
+
+#text-a {
+    max-width: 60vw;
+    margin-top: 6em;
+    margin-left: 2em;
+    font-size: 2vw;
+    line-height: 2em;
+    color: #000000;
+    font-weight: bold;
+    font-family: forma-djr-text, sans-serif;
+}
+
+#text-b {
+    float: right;
+    padding-right: 2em;
+    font-size: 1.2vw;
+    max-width: 30vw;
+    padding-top: 6em;
+    padding-right: 9em;
+    font-size: 1.3vw;
+    line-height: 2em;
+    color: #000000;
+    font-family: forma-djr-text, sans-serif;
+}
+
+.container-c {
+    position: relative;
+    background-color: #4c2dc7;
+    height: 58vw;
+}
+
+#text-c {
+    max-width: 60vw;
+    padding-left: 6em;
+    padding-top: 4em;
+    font-size: 2vw;
+    line-height: 2em;
+    color: rgb(191, 227, 211);
+    font-weight: bold;
+    font-family: forma-djr-text, sans-serif;
+}
+
+mark {
+    background-color: #fa5cd2ab;
+    padding: .2em 0.2em;
+}
+
+#footer-icons li {
+    display: inline;
+    padding: 1em;
+}
+
+ul {
+    text-align: center;
+    height: 4em;
+}
+
+.instagram {
+    width: 1.9em;
+}
+
+.calendar {
+    width: 2em;
+}
+
+.booking {
+    position: relative;
+    height: 100vw;
+    background-color: #ffffff;
+}
+
+iframe {
+    margin-left: 25vw;
+    margin-top: 8vw;
+    max-width: 50%;
+    min-height: 600px;
+    height: 200px !important;
+    vertical-align: top;
+    min-height: 600px !important;
+}
+
+
