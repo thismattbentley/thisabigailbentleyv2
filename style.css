@@ -32,20 +32,17 @@ body {
 }
 
 .title {
-    font-family: orpheuspro, serif;
+    font-family: forma-djr-text, sans-serif;
     display: inline-flex;
     padding-left: 4em;
     margin-top: 15em;
-    margin-left: 54em;
-    margin-right: 5em;
+    margin-left: 50em;
     margin-bottom: 9em;
     color: #4c2dc7;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 1.2vw;
-    font-style: italic;
-    letter-spacing: 2px
 }
 
 .container-b {
@@ -81,7 +78,7 @@ body {
     padding-right: 2em;
     max-width: 40vw;
     padding-top: 3em;
-    padding-right: 9em;
+    padding-right: 5em;
     font-size: 1.7vw;
     line-height: 1.6em;
     color: #000000;
@@ -127,6 +124,7 @@ ul {
 
 .instagram {
     width: 2.8vw;
+    margin-bottom: .1vh;
 }
 
 .calendar {
@@ -184,3 +182,25 @@ iframe {
     margin-top: 28%;
     transform: rotate(90deg);
 }
+
+.subtitle {
+    position: absolute;
+    font-family: forma-djr-text, sans-serif;
+   /* font-style: italic; not sure yet */
+    font-size: 3vw;
+    margin-left: 3.2vw;
+    margin-top: 36vw;
+    color: #fa5cd2;
+    letter-spacing: 0vw;
+}
+
+#oval {
+    width: 30vw;
+    height: 5vw;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 100vw / 80vw;
+    border: .2vw solid #fa5cd2;
+    margin-left: 10vw;
+    margin-top: 16vw;
+
+  }
