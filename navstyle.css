@@ -22,14 +22,13 @@ nav {
     text-decoration: none;
     font-family: forma-djr-text, sans-serif;
     font-weight: bold;
-    padding: 10px 0px;
     transition: 0.2s ease color;
     transform: translateY(20%);
     font-size: 1.1vw
   }
   
-  nav a:before,
-  nav a:after {
+  nav a::before,
+  nav a::after {
     content: "";
     position: absolute;
     border-radius: 50%;
@@ -37,7 +36,7 @@ nav {
     transition: 0.2s ease transform;
   }
   
-  nav a:before {
+  nav a::before {
     top: 0;
     left: 5px;
     width: 6px;
@@ -45,7 +44,7 @@ nav {
     margin-left: 15%;
   }
   
-  nav a:after {
+  nav a::after {
     top: 5px;
     left: 10px;
     width: 4px;
@@ -53,42 +52,42 @@ nav {
     margin-left: 16%;
   }
   
-  nav a:nth-child(1):before {
+  nav a:nth-child(1)::before {
     background-color: #ff5ebf;
   }
   
-  nav a:nth-child(1):after {
+  nav a:nth-child(1)::after {
     background-color: #a9a6ed;
   }
   
-  nav a:nth-child(2):before {
+  nav a:nth-child(2)::before {
     background-color: #ff5ebf;
   }
   
-  nav a:nth-child(2):after {
+  nav a:nth-child(2)::after {
     background-color: #a9a6ed;
   }
   
-  nav a:nth-child(3):before {
+  nav a:nth-child(3)::before {
     background-color: #ff5ebf;
   }
   
-  nav a:nth-child(3):after {
+  nav a:nth-child(3)::after {
     background-color: #a9a6ed;
   }
 
-  nav a:nth-child(4):before {
+  nav a:nth-child(4)::before {
     background-color: #ff5ebf;
   }
   
-  nav a:nth-child(4):after {
+  nav a:nth-child(4)::after {
     background-color: #a9a6ed;
   }
   
   #indicator {
     position: absolute;
     left: 9%;
-    bottom: 0;
+    bottom: -10px;
     width: 30px;
     height: 3px;
     background-color: #fff;
@@ -124,4 +123,3 @@ nav {
     left: 85%;
     background: linear-gradient(130deg, #ff5ebf, #a9a6ed);
   }
-  
