@@ -84,7 +84,7 @@ nav {
     background-color: #a9a6ed;
   }
   
-  #indicator {
+/*   #indicator {
     position: absolute;
     left: 9%;
     bottom: -10px;
@@ -93,7 +93,7 @@ nav {
     background-color: #fff;
     border-radius: 5px;
     transition: 0.2s ease left;
-  }
+  } */
   
   nav a:hover {
     color: #fff;
@@ -104,22 +104,133 @@ nav {
     transform: scale(1);
   }
   
-  nav a:nth-child(1):hover ~ #indicator {
+  /* active for ABOUT */
+  nav a:nth-child(1):hover ~ .active-about {
     left: 9%;
     background: linear-gradient(130deg, #ff5ebf, #a9a6ed);
   }
   
-  nav a:nth-child(2):hover ~ #indicator {
+  nav a:nth-child(2):hover ~ .active-about {
     left: 34%;
     background: linear-gradient(130deg, #ff5ebf, #a9a6ed);
   }
   
-  nav a:nth-child(3):hover ~ #indicator {
+  nav a:nth-child(3):hover ~ .active-about {
     left: 60%;
     background: linear-gradient(130deg, #ff5ebf, #a9a6ed);
   }
 
-  nav a:nth-child(4):hover ~ #indicator {
+  nav a:nth-child(4):hover ~ .active-about {
     left: 85%;
     background: linear-gradient(130deg, #ff5ebf, #a9a6ed);
+  }
+
+  .active-about {
+    position: absolute;
+    left: 34%;
+    bottom: -10px;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 0.2s ease left;
+  }
+
+  /* active for WELCOME */
+
+  nav a:nth-child(1):hover ~ .active-index {
+    left: 9%;
+    background: linear-gradient(130deg, #ff5ebf, #a9a6ed);
+  }
+  
+  nav a:nth-child(2):hover ~ .active-index {
+    left: 34%;
+    background: linear-gradient(130deg, #ff5ebf, #a9a6ed);
+  }
+  
+  nav a:nth-child(3):hover ~ .active-index {
+    left: 60%;
+    background: linear-gradient(130deg, #ff5ebf, #a9a6ed);
+  }
+
+  nav a:nth-child(4):hover ~ .active-index {
+    left: 85%;
+    background: linear-gradient(130deg, #ff5ebf, #a9a6ed);
+  }
+
+  .active-index {
+    position: absolute;
+    left: 9%;
+    bottom: -10px;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 0.2s ease left;
+  }
+
+  /* active for CONTACT */
+
+  nav a:nth-child(1):hover ~ .active-contact {
+    left: 9%;
+    background: linear-gradient(130deg, #ff5ebf, #a9a6ed);
+  }
+  
+  nav a:nth-child(2):hover ~ .active-contact {
+    left: 34%;
+    background: linear-gradient(130deg, #ff5ebf, #a9a6ed);
+  }
+  
+  nav a:nth-child(3):hover ~ .active-contact {
+    left: 60%;
+    background: linear-gradient(130deg, #ff5ebf, #a9a6ed);
+  }
+
+  nav a:nth-child(4):hover ~ .active-contact {
+    left: 85%;
+    background: linear-gradient(130deg, #ff5ebf, #a9a6ed);
+  }
+
+  .active-contact {
+    position: absolute;
+    left: 9%;
+    bottom: -10px;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 0.2s ease left;
+  }
+
+   /* active for BOOKING */
+
+   nav a:nth-child(1):hover ~ .active-booking {
+    left: 9%;
+    background: linear-gradient(130deg, #ff5ebf, #a9a6ed);
+  }
+  
+  nav a:nth-child(2):hover ~ .active-booking {
+    left: 34%;
+    background: linear-gradient(130deg, #ff5ebf, #a9a6ed);
+  }
+  
+  nav a:nth-child(3):hover ~ .active-booking {
+    left: 60%;
+    background: linear-gradient(130deg, #ff5ebf, #a9a6ed);
+  }
+
+  nav a:nth-child(4):hover ~ .active-booking {
+    left: 85%;
+    background: linear-gradient(130deg, #ff5ebf, #a9a6ed);
+  }
+
+  .active-booking {
+    position: absolute;
+    left: 85%;
+    bottom: -10px;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 0.2s ease left;
   }
