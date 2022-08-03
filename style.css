@@ -51,6 +51,13 @@ body {
     height: 58vw;
 }
 
+.container-d {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 70vw;
+    z-index: 1;
+}
+
 #text-a {
     max-width: 60vw;
     margin-top: 6em;
@@ -204,3 +211,4 @@ iframe {
     margin-top: 16vw;
 
   }
+

@@ -3,12 +3,49 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navstyle.css">
+    <link rel="stylesheet" href="contact.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
+    <nav>
+        <a href="index.html">WELCOME</a>
+        <a href="about.html">I'M ABBY</a>
+        <a href="contact.html">REACH ME!</a>
+        <a href="booking.html">BOOKING</a>
+        <div id="indicator"></div>
+        <div class="active-contact"></div>
+      </nav>
+    <div style="position:relative;width:auto;height:58vw;background-color: #eafa91;">
+        <img src="assets/abby 1 small.JPG" class="abby1">
+        <img src="assets/retro-star.png" class="star2">
+        <div>
+            <h1 class="title2">Want</h1>
+            <h2 class="subtitle">to talk?</h2>
+        </div>
+    </div>
+    <div class="container-d">
+        <div class="wrapper">
+            <form class="form">
+              <div class="pageTitle title">Email Me </div>
+              <div class="secondaryTitle title">Please fill out this form</div>
+              <input type="text" class="name formEntry" placeholder="Name" />
+              <input type="text" class="email formEntry" placeholder="Email"/>
+              <textarea class="message formEntry" placeholder="Message"></textarea>
+              <input type="checkbox" class="termsConditions" value="Term">
+              <label style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Terms of Use</span> & <span style="color: #0e3721">Privacy Policy</span>.</label><br>
+              <button class="submit formEntry" onclick="thanks()">Submit</button>
+            </form>
+          </div>
+          <script src="app.js"></script>
+    </div> </div>
+    <div>
+        <ul id="footer-icons">
+            <li><a class="icon icon-instagram" href="https://www.instagram.com/hairbyabigailleigh/?hl=en" target="_blank"><img src="assets/instagram logo.png" class="instagram"></a></li>
+            <li><a class="icon icon-cal" href="https://hairbyabigailleigh.square.site/bookappointment" target="_blank"><img src="assets/cal logo.png" class="calendar"></a></li>
+        </ul>
+    </div>
 </body>
 </html>
